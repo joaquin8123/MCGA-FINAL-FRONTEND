@@ -24,13 +24,7 @@ export default function ProductsPublic() {
           {error ? <p className="font-weight-bold alert alert-danger text-center mt-4">Hubo un error al obtener los productos</p> : null}
 
           {loading ? <p className="text-center">Cargando....</p> : null}
-
-          <Link
-            to={'/product/new'}
-            className='btn btn-danger nuevo-post d-block d-md-inline-block'
-          >
-            Nuevo Producto &#43;
-          </Link>
+          
           <table className="table table-striped">
             <thead className="bg-primary table-dark">
               <tr>
