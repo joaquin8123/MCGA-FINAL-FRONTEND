@@ -20,7 +20,7 @@ const Home = () => {
             <div className="col-md-8 p-4">
               <div className="card">
                 <div className="card-header">
-                  <h2 className="text-center mb-4 font-weight-bold">Parcial 2</h2>
+                  <h2 className="text-center mb-4 font-weight-bold">Final MCGA</h2>
                 </div>
                 <div className="card-body">
                   <div className="row">
